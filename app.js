@@ -7,11 +7,11 @@ const axios = require('axios');
 const app = express()
 const port = 3062
 
-// const colors = {
-//     down: 10682371,
-//     up: 172800,
-//     warn: 15258703
-// }
+const colors = {
+    down: 10682371,
+    up: 172800,
+    warn: 15258703
+}
 
 const sendDiscordWebhook = (data, url, ret) => {
     let params = {
